@@ -19,7 +19,7 @@ A modern, comprehensive web application for managing campus life, built with Nex
 ### 3. Resource Center
 - Curated links to trusted external resource providers
 - DotNotes.in - Study notes and materials
-- Syllabux.live - Syllabus coverage and exam prep
+- Syllabusx.live - Syllabus coverage and exam prep
 - Simple redirect-based system (no uploads)
 
 ### 4. Study Groups

@@ -11,10 +11,10 @@ const resources = [
     icon: "📝",
   },
   {
-    name: "Syllabux",
+    name: "Syllabusx",
     description:
       "Complete syllabus coverage with topic-wise resources, previous year papers, and exam preparation guides.",
-    url: "https://syllabux.live",
+    url: "https://syllabusx.live",
     icon: "📚",
   },
 ]

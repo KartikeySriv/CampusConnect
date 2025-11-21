@@ -47,7 +47,7 @@ export function AIChatbot() {
         "You're currently in 2 study groups: Data Structures and Machine Learning Research. You can find more groups in the Study Groups section."
     } else if (userMessage.toLowerCase().includes("resource") || userMessage.toLowerCase().includes("coding")) {
       response =
-        "For coding resources, check out LeetCode, CodeChef, and GitHub in the Connections section. You can also visit DotNotes and Syllabux in the Resource Center."
+        "For coding resources, check out LeetCode, CodeChef, and GitHub in the Connections section. You can also visit DotNotes and Syllabusx in the Resource Center."
     } else if (userMessage.toLowerCase().includes("opportunit")) {
       response =
         "There are 6 opportunities available this week, including the Global Student Hackathon (deadline in 2 days) and Google Summer Internship. Check the Opportunities page for details."
