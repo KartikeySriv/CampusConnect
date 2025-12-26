@@ -15,7 +15,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "CampusConnect",
   description: "Unified Campus Life Platform",
-    generator: 'v0.app'
+  icons: {
+    icon: "https://images.squarespace-cdn.com/content/v1/5d892f94afd4fc4e074a830f/1634353381425-6RHT4IR5K29VXVCSCF01/logo-bluebg.png", // or "/icon.png"
+  },
 }
 
 export default function RootLayout({
