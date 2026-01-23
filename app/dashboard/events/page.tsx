@@ -84,16 +84,16 @@ export default function EventsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-foreground">Campus Events</h2>
           <p className="text-muted-foreground mt-1">Discover workshops, meetups, and competitions.</p>
         </div>
-        {(role === "teacher" || role === "admin") && (
+        {/* {(role === "teacher" || role === "admin") && (
           <Button onClick={() => setShowCreateModal(true)} className="shadow-lg shadow-primary/20">
             <Plus className="mr-2 h-4 w-4" />
             Create Event
           </Button>
-        )}
+        )} */}
       </div>
 
       {/* Featured Categories */}
-      <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+      {/* <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
         {["All Events", "Tech", "Creative", "Business", "Social", "Career"].map((cat, i) => (
           <Button
             key={cat}
@@ -103,7 +103,7 @@ export default function EventsPage() {
             {cat}
           </Button>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {events.map((event) => (

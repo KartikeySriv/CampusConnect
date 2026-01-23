@@ -33,14 +33,14 @@ export function StudentDashboard() {
             You have <span className="font-bold text-white">2 assignments</span> due today and{" "}
             <span className="font-bold text-white">1 event</span> starting soon.
           </p>
-          <div className="mt-6 flex gap-3">
+          {/* <div className="mt-6 flex gap-3">
             <Button variant="secondary" className="bg-white text-primary hover:bg-blue-50 border-none shadow-lg">
               View Schedule
             </Button>
             <Button variant="outline" className="bg-primary/20 border-white/20 text-white hover:bg-primary/30">
               Check Grades
             </Button>
-          </div>
+          </div> */}
         </div>
         {/* Decorative circles */}
         <div className="absolute top-0 right-0 -mt-10 -mr-10 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
